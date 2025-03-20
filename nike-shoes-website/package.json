@@ -1,0 +1,19 @@
+{
+  "name": "nike-shoes-website",
+  "version": "1.0.0",
+  "description": "A website project for showcasing Nike shoes using Tailwind CSS.",
+  "main": "src/index.html",
+  "scripts": {
+    "build": "tailwindcss build src/styles/tailwind.css -o src/styles/output.css",
+    "watch": "tailwindcss build src/styles/tailwind.css -o src/styles/output.css --watch",
+    "start": "live-server src"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
